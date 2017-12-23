@@ -302,16 +302,6 @@ public class HomeOldFragment extends BaseFragment implements HomeOldView,
     }
 
     /**
-     * Opens up Phone Dialer
-     */
-    @OnClick(R.id.tv_help_contact)
-    void dialHelpLineNumber() {
-        Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:" + getString(R.string.help_line_number)));
-        startActivity(intent);
-    }
-
-    /**
      * Opens {@link LoanApplicationFragment} to apply for a loan
      */
     @OnClick(R.id.ll_apply_for_loan)

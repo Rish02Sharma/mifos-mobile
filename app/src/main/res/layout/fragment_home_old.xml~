@@ -345,13 +345,10 @@
                     android:layout_marginRight="@dimen/row_padding_right"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/tv_help_contact"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/help_line_number"
-                        android:textColor="@color/blue"
                         android:textStyle="bold"
-                        android:clickable="true"
                         android:gravity="end"
                         android:layout_marginTop="@dimen/divider_margin"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
